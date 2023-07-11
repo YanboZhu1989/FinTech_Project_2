@@ -50,26 +50,54 @@ Additionally, please ensure the following libraries and dependencies are install
 
 # Model Reports and Outputs
 1. Logistic Regression
-Model out + PNG
+Model output + PNG
+        precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       559
+         1.0       0.52      1.00      0.68       605
+
+    accuracy                           0.52      1164
+   macro avg       0.26      0.50      0.34      1164
+weighted avg       0.27      0.52      0.36      1164
+
+       precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       198
+         1.0       0.49      1.00      0.66       191
+
+    accuracy                           0.49       389
+   macro avg       0.25      0.50      0.33       389
+weighted avg       0.24      0.49      0.32       389
+
   
-2. Linear Regression
-Model out + PNG
+3. Linear Regression
+Model output + PNG
 
-3. GARCH
-Model out + PNG
+4. GARCH
+Model output + PNG
 
-4. SVM
-Model out + PNG
+5. SVM
+Model output + PNG
+      precision    recall  f1-score   support
 
-5. Neural Network
-Model out + PNG
+        -1.0       0.54      0.09      0.16       347
+         1.0       0.53      0.93      0.68       385
 
-6. Prophet
-Model out + PNG
+    accuracy                           0.53       732
+   macro avg       0.54      0.51      0.42       732
+weighted avg       0.54      0.53      0.43       732
+
+
+
+6. Neural Network
+Model output + PNG
+
+7. Prophet
+Model output + PNG
 
 ## Deep Dive: 
 Comparison analysis
-Model out + PNG
+Model output + PNG
 
 
 
