@@ -19,21 +19,21 @@ Considerations:
 * Output to be displayed and executable on a webpage
 
 
----
+
 # Usage and Installation Guide
 
 # Installs needed for the code
-[yfinance](https://pypi.org/project/yfinance/)
-[arch](https://pypi.org/project/arch/)
-[fear_and_greed](https://pypi.org/project/fear-and-greed/)
+- [yfinance](https://pypi.org/project/yfinance/)
+- [arch](https://pypi.org/project/arch/)
+- [fear_and_greed](https://pypi.org/project/fear-and-greed/)
 
 Additionally, please ensure the following libraries and dependencies are installed and available for code execution
 
 *For additional context see "Libraries and Dependencies" section of the code:
-## Base Libraries
+### Base Libraries
 - pandas, numpy,time, os, Path from pathlib, hvplot.pandas, yfinance, load_dotenv from dotenv  
 
-## Machine Learning
+### Machine Learning
 - plt, ticker, mpimg, pyplot, inline from matplotlib, 
 - DateOffset from pandas.tseries.offsets  
 - svm, StandardScaler, LinearRegression, LogisticRegression, train_test_split, StandardScaler, OneHotEncoder, classification_report, mean_squared_error, r2_score, onfusion_matrix, accuracy_score, and classification_report from [sklearn](https://scikit-learn.org/stable/)
@@ -42,11 +42,11 @@ Additionally, please ensure the following libraries and dependencies are install
 -  Dense, Activation, Dropout from [keras](https://keras.io)
 - arch_model from [arch](https://arch.readthedocs.io/en/latest/)
 
-### Additional Work
+#### Additional Work
 - fear_and_greed
 - alpaca_trade_api
 
----
+
 # Model Reports and Outputs
 1. Logistic Regression
 Model out + PNG
@@ -71,14 +71,14 @@ Comparison analysis
 Model out + PNG
 
 
----
+
 # Links
 * [GitHub Repo Link](https://github.com/YanboZhu1989/FinTech_Project_2.git)
 * [Project Folder](https://drive.google.com/drive/folders/1nUekI4111UTUd9Az__QJC9vdLuj1YYQK?usp=sharing)
 * [Meeting Notes and Project Doc](https://docs.google.com/document/d/1I_i6JGlAO6SgynetaENlZ5KDaHw66uHzHLZBa2tHPOw/edit?usp=sharing)
 * [Web Page]()
 
----
+
 # Resources and References
 - https://edition.cnn.com/markets/fear-and-greed?utm_source=business_ribbon
 - https://pypi.org/project/fear-and-greed/
