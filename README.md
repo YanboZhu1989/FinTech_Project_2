@@ -29,7 +29,8 @@ Considerations:
 
 Additionally, please ensure the following libraries and dependencies are installed and available for code execution
 
-*For additional context see "Libraries and Dependencies" section of the code:
+*For additional context see "Libraries and Dependencies" section of the code:*
+
 ### Base Libraries
 - pandas, numpy,time, os, Path from pathlib, hvplot.pandas, yfinance, load_dotenv from dotenv  
 
