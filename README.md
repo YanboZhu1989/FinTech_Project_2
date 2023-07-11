@@ -51,6 +51,7 @@ Additionally, please ensure the following libraries and dependencies are install
 # Model Reports and Outputs
 1. Logistic Regression
 Model output + PNG
+
         precision    recall  f1-score   support
 
          0.0       0.00      0.00      0.00       559
@@ -60,6 +61,8 @@ Model output + PNG
    macro avg       0.26      0.50      0.34      1164
 weighted avg       0.27      0.52      0.36      1164
 
+
+
        precision    recall  f1-score   support
 
          0.0       0.00      0.00      0.00       198
@@ -68,6 +71,7 @@ weighted avg       0.27      0.52      0.36      1164
     accuracy                           0.49       389
    macro avg       0.25      0.50      0.33       389
 weighted avg       0.24      0.49      0.32       389
+
 
   
 3. Linear Regression
