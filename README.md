@@ -26,6 +26,8 @@ Considerations:
 - [yfinance](https://pypi.org/project/yfinance/)
 - [arch](https://pypi.org/project/arch/)
 - [fear_and_greed](https://pypi.org/project/fear-and-greed/)
+- [selenium](https://pypi.org/project/selenium/)
+
 
 Additionally, please ensure the following libraries and dependencies are installed and available for code execution
 
@@ -35,9 +37,9 @@ Additionally, please ensure the following libraries and dependencies are install
 - pandas, numpy,time, os, Path from pathlib, hvplot.pandas, yfinance, load_dotenv from dotenv  
 
 ### Machine Learning
-- plt, ticker, mpimg, pyplot, inline from matplotlib, 
+- plt, ticker, mpimg, pyplot, inline from [matplotlib](https://pypi.org/project/matplotlib/) 
 - DateOffset from pandas.tseries.offsets  
-- svm, StandardScaler, LinearRegression, LogisticRegression, train_test_split, StandardScaler, OneHotEncoder, classification_report, mean_squared_error, r2_score, onfusion_matrix, accuracy_score, and classification_report from [sklearn](https://scikit-learn.org/stable/)
+- svm, StandardScaler, LinearRegression, LogisticRegression, train_test_split, StandardScaler, OneHotEncoder, classification_report, mean_squared_error, r2_score, confusion_matrix, accuracy_score, and classification_report from [sklearn](https://scikit-learn.org/stable/)
 - Prophet from [prophet](https://facebook.github.io/prophet/)  
 - Dense and Sequential from [tensorflow](https://www.tensorflow.org)
 -  Dense, Activation, Dropout from [keras](https://keras.io)
@@ -49,60 +51,137 @@ Additionally, please ensure the following libraries and dependencies are install
 
 
 # Model Reports and Outputs
-1. Logistic Regression
-Model output + PNG
+## 1. Logistic Regression
 
-        precision    recall  f1-score   support
+Model Evalution Report
 
-         0.0       0.00      0.00      0.00       559
-         1.0       0.52      1.00      0.68       605
+Training Output
 
-    accuracy                           0.52      1164
-   macro avg       0.26      0.50      0.34      1164
-weighted avg       0.27      0.52      0.36      1164
+                      precision    recall  f1-score   support
 
+         0.0             0.00      0.00      0.00       575
+         1.0             0.51      1.00      0.67       595
+         accuracy                            0.51      1170
+         macro avg       0.25      0.50      0.34      1170
+         weighted avg    0.26      0.51      0.34      1170
 
+Testing Output
 
-       precision    recall  f1-score   support
+                      precision    recall  f1-score   support
 
-         0.0       0.00      0.00      0.00       198
-         1.0       0.49      1.00      0.66       191
-
-    accuracy                           0.49       389
-   macro avg       0.25      0.50      0.33       389
-weighted avg       0.24      0.49      0.32       389
+         0.0             0.00      0.00      0.00       187
+         1.0             0.52      1.00      0.68       203
+         accuracy                            0.52       390
+         macro avg       0.26      0.50      0.34       390
+         weighted avg    0.27      0.52      0.36       390
 
 
   
-3. Linear Regression
-Model output + PNG
+## 2. Unsupervised Linear Regression
 
-4. GARCH
-Model output + PNG
+Model Evalution Report
 
-5. SVM
-Model output + PNG
-      precision    recall  f1-score   support
+                                   value
+         score                     0.68776
+         r2                        0.68776 
+         mean squared error        0.00042     
+         root mean squared error   0.02056
+         standard deviation        0.03680
 
-        -1.0       0.54      0.09      0.16       347
-         1.0       0.53      0.93      0.68       385
+<center>
 
-    accuracy                           0.53       732
-   macro avg       0.54      0.51      0.42       732
-weighted avg       0.54      0.53      0.43       732
+    Linear Regression Prediction Plot
+![linear_plot](Images/linear_plot.png)
+</center>
+
+## 3. GARCH
+
+
+Zero Mean - GARCH Model Results
+
+                Dep. Variable:	    actual_returns	        R-squared:	  0.000
+                Mean Model:	        Zero Mean	       Adj. R-squared:	  0.001
+                Vol Model:	        GARCH	           Log-Likelihood:	 2998.23
+                Distribution:	    Normal	                      AIC:	-5990.46
+                Method:	            Maximum Likelihood	          BIC:	-5974.40
+                                                     No. Observations:	  1560
+                Date:	            Wed, Jul 12 2023     Df Residuals:	  1560
+                Time:	            20:56:01	             Df Model:	    0
+
+    Volatility Model
+                coef	        std err	    t	        P>|t|	        95.0% Conf. Int.
+    omega	     1.0337e-04	  2.936e-05	   3.521	  4.296e-04	    [4.583e-05,1.609e-04]
+    alpha[1]	 0.1018	      3.871e-02	   2.630	  8.532e-03	    [2.594e-02, 0.178]
+    beta[1]	   0.8279	      3.593e-02	   23.041	  1.805e-117	  [ 0.757, 0.898]
+
+<center>
+
+    Garch Volatility Plot
+![Garch Volatility](Images/garch.png)
+
+    Garch Forecast Plot
+![Garch Forecast](Images/final_garch_plot.png)
+</center>
+
+
+## 4. SVM
+
+Model Evalution Report
+
+                          precision   recall  f1-score     support
+          -1.0               0.54      0.09      0.16       347
+           1.0               0.53      0.93      0.68       385
+          accuracy                               0.53       732
+          macro avg          0.54      0.51      0.42       732
+          weighted avg       0.54      0.53      0.43       732
 
 
 
-6. Neural Network
-Model output + PNG
+<center>
 
-7. Prophet
-Model output + PNG
+    SVM Prediction Plot
+![svm](Images/svm.png)
+</center>
+
+
+## 5. Neural Network
+
+Model Evalution Report
+
+                                   Value
+         Loss                     0.55001
+         Accuracy                 0.77949
+
+## 6. Prophet
+
+Model Prediction Outcome
+
+                                    Price
+         Best Case                33566.16443
+         Worst Case               25505.97644
+         Most Likely Case         29518.59629
+
+<center>
+
+    Prophet Prediction Plot
+![Prophet](Images/prophet.png)
+</center>
+
 
 ## Deep Dive: 
-Comparison analysis
-Model output + PNG
+Develop a supervised machine learning model that uses Linear Regression to Forecast using Prophet predictions as training data.
 
+Model Prediction Outcome
+
+                                            Value
+      Loss Absolute Error                 613.4749
+      Loss Absolute Percentage Error      2.21252 %
+
+<center>
+
+    Supervised Linear Regression vs Prophet
+![Sup LR vs Prophet](Images/df_lr_prophet_forecast_predict_old.png)
+</center>
 
 
 # Links
@@ -122,6 +201,7 @@ Model output + PNG
 - https://monkeylearn.com/blog/introduction-to-support-vector-machines-svm/
 - https://www.investopedia.com/articles/trading/06/neuralnetworks.asp#:~:text=Neural%20networks%20do%20not%20make,using%20traditional%20technical%20analysis%20methods
 - https://facebook.github.io/prophet/#:~:text=Prophet%20is%20a%20procedure%20for,several%20seasons%20of%20historical%20data
+- https://blog.devgenius.io/how-to-buy-and-sell-a-stock-with-python-439cf79ba8f1
 - Presentation images/artwork  Google Images
 
 
