@@ -99,14 +99,14 @@ Model Evalution Report
 
 Zero Mean - GARCH Model Results
 
-                Dep. Variable:	    actual_returns	        R-squared:	  0.000
-                Mean Model:	        Zero Mean	       Adj. R-squared:	  0.001
-                Vol Model:	        GARCH	           Log-Likelihood:	 2998.23
-                Distribution:	    Normal	                      AIC:	-5990.46
-                Method:	            Maximum Likelihood	          BIC:	-5974.40
-                                                     No. Observations:	  1560
-                Date:	            Wed, Jul 12 2023     Df Residuals:	  1560
-                Time:	            20:56:01	             Df Model:	    0
+                Dep. Variable:	    actual_returns	              R-squared:	  0.000
+                Mean Model:	        Zero Mean	            Adj. R-squared:	  0.001
+                Vol Model:	        GARCH	                Log-Likelihood:	 2998.23
+                Distribution:	    Normal	                           AIC:	-5990.46
+                Method:	            Maximum Likelihood	               BIC:	-5974.40
+                                                          No. Observations:	  1560
+                Date:	            Wed, Jul 12 2023          Df Residuals:	  1560
+                Time:	            20:56:01	                  Df Model:	    0
 
     Volatility Model
                 coef	        std err	    t	        P>|t|	        95.0% Conf. Int.
