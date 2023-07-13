@@ -190,6 +190,9 @@ Model Prediction Outcome
 ![Sup LR vs Prophet](Images/df_lr_prophet_forecast_predict_old.png)
 </center>
 
+## Buy/Sell Decision Based on Prophet Forecast
+![Buy/Sell Decision](Images/Screenshot 2023-07-13 213035.jpg)
+![Buy/Sell History](Images/Alpaca_Screenshot.jpg)
 
 # Links
 * [GitHub Repo Link](https://github.com/YanboZhu1989/FinTech_Project_2.git)
