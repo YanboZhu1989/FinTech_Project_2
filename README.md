@@ -186,9 +186,9 @@ Model Prediction Outcome
 
 # Links
 * [GitHub Repo Link](https://github.com/YanboZhu1989/FinTech_Project_2.git)
-  * Web Page See GitHub Repo: To be downloaded and viewed on local machine as page is not hosted on web
 * [Project Folder](https://drive.google.com/drive/folders/1nUekI4111UTUd9Az__QJC9vdLuj1YYQK?usp=sharing)
 * [Meeting Notes and Project Doc](https://docs.google.com/document/d/1I_i6JGlAO6SgynetaENlZ5KDaHw66uHzHLZBa2tHPOw/edit?usp=sharing)
+* [The Coin Whisperer Webpage](https://uat.junglemeetforum.com)
 
 
 # Resources and References
