@@ -65,16 +65,24 @@ Training Output
          macro avg       0.25      0.50      0.34      1170
          weighted avg    0.26      0.51      0.34      1170
 
-Testing Output
+After increasing the dataset:
 
-                      precision    recall  f1-score   support
+                    pre       rec       spe        f1       geo       iba       sup
 
-         0.0             0.00      0.00      0.00       187
-         1.0             0.52      1.00      0.68       203
-         accuracy                            0.52       390
-         macro avg       0.26      0.50      0.34       390
-         weighted avg    0.27      0.52      0.36       390
+        0.0       0.00      0.00      1.00      0.00      0.00      0.00       185
+        1.0       0.98      1.00      0.00      0.99      0.00      0.00      9187
 
+avg / total       0.96      0.98      0.02      0.97      0.00      0.00      9372
+
+
+After resampling the dataset:
+
+                    pre       rec       spe        f1       geo       iba       sup
+
+        0.0       0.49      1.00      0.00      0.65      0.00      0.00       190
+        1.0       0.00      0.00      1.00      0.00      0.00      0.00       201
+
+avg / total       0.24      0.49      0.51      0.32      0.00      0.00       391
 
   
 ## 2. Unsupervised Linear Regression
@@ -82,16 +90,16 @@ Testing Output
 Model Evalution Report
 
                                    value
-         score                     0.68776
-         r2                        0.68776 
-         mean squared error        0.00042     
-         root mean squared error   0.02056
-         standard deviation        0.03680
+         score                     0.810619
+         r2                        0.810619
+         mean squared error        0.000142     
+         root mean squared error   0.011939
+         standard deviation        0.027436
 
 <center>
 
     Linear Regression Prediction Plot
-![linear_plot](Images/linear_plot.png)
+![linear_plot](Images/linear.png)
 </center>
 
 ## 3. GARCH
