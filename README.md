@@ -191,7 +191,8 @@ Model Prediction Outcome
 </center>
 
 ## Buy/Sell Decision Based on Prophet Forecast
-![Buy/Sell Decision](Images/Screenshot 2023-07-13 213035.jpg)
+
+![Buy/Sell Decision](Images/BuyOrSell.jpg)
 ![Buy/Sell History](Images/Alpaca_Screenshot.jpg)
 
 # Links
