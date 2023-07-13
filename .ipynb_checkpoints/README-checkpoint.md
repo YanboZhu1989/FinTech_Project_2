@@ -1,6 +1,7 @@
 # The Coin Whisperer
 ## USYD FinTech Bootcamp July-2023 Group Project 2
 *Group 3: Wasseem, Yanbo, Ferdows, Shayan*
+### [Project website](https://fintechproject2.blob.core.windows.net/web-page/index.html)
 
 **The code for this project is written in a Jupyter Lab Notebook using a Python Script** 
 
@@ -72,7 +73,6 @@ After increasing the dataset:
         0.0       0.00      0.00      1.00      0.00      0.00      0.00       185
         1.0       0.98      1.00      0.00      0.99      0.00      0.00      9187
 
-avg / total       0.96      0.98      0.02      0.97      0.00      0.00      9372
 
 
 After resampling the dataset:
@@ -82,10 +82,9 @@ After resampling the dataset:
         0.0       0.49      1.00      0.00      0.65      0.00      0.00       190
         1.0       0.00      0.00      1.00      0.00      0.00      0.00       201
 
-avg / total       0.24      0.49      0.51      0.32      0.00      0.00       391
 
   
-## 2. Unsupervised Linear Regression
+## 2. Linear Regression
 
 Model Evalution Report
 
