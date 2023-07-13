@@ -85,7 +85,7 @@ After resampling the dataset:
 avg / total       0.24      0.49      0.51      0.32      0.00      0.00       391
 
   
-## 2. Unsupervised Linear Regression
+## 2. Linear Regression
 
 Model Evalution Report
 
